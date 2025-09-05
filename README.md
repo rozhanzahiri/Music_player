@@ -1,5 +1,5 @@
 # Music_player
-- [Demo Project](https://rozhanzahiri.github.io/Menu_Resturant/)
+- [Demo Project](https://rozhanzahiri.github.io/Music_player/)
 
 - Developed by Rozhan Zahiri
 
