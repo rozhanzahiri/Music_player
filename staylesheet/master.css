@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+    @apply flex flex-wrap w-full
+}
+
+@layer utility {}
+
+@layer components {}
+
+swiper-container {
+    width: 95%;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+swiper-slide {
+    width: 250px !important;
+    margin-right: 10px;
+    font-size: 15px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #5a5858;
+
+        >div {
+            >figure {
+
+                >img {
+                    scale: 1.1;
+                }
+
+                >span {
+                    display: flex;
+
+                }
+            }
+        }
+    }
+}
